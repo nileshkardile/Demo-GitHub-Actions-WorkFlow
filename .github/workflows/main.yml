@@ -19,7 +19,7 @@ jobs:
         uses: anothrNick/github-tag-action@1.39.0
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          DRY_RUN: true
+          DRY_RUN: false
           DEFAULT_BUMP: major
     
       - name: Set up JDK 11
