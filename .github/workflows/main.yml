@@ -21,7 +21,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           DRY_RUN: true
           INITIAL_VERSION: 2.7.2
-          DEFAULT_BUMP: minor
+          DEFAULT_BUMP: major
     
       - name: Set up JDK 11
         uses: actions/setup-java@v3
