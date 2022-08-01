@@ -22,6 +22,10 @@ jobs:
           DRY_RUN: true
           INITIAL_VERSION: 2.7.2
           DEFAULT_BUMP: major
+      
+      - name: Get the version
+        id: get_version
+        run: echo ::set-output name=VERSION::$(echo $GITHUB_REF | cut -d / -f 3)
           
           
       
