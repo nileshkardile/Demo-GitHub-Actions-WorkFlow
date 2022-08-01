@@ -20,7 +20,6 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           DRY_RUN: true
-          INITIAL_VERSION: 2.7.2
           DEFAULT_BUMP: major
     
       - name: Set up JDK 11
