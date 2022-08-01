@@ -22,5 +22,7 @@ jobs:
           WITH_V: false
           DRY_RUN: true
           INITIAL_VERSION: 2.7.2
+          SOURCE: pom.xml
+          
           
       
