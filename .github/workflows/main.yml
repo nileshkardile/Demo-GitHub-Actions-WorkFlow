@@ -20,6 +20,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           WITH_V: false
+          DRY_RUN: true
           INITIAL_VERSION: 2.7.2
           
       
